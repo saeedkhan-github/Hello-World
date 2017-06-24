@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="saeedullah" />
+	<title>Create New NOde with JS</title>
+ 
+ </style>
+</head>
+<body>
+<div>
+<h3>Accessing paraghraph 3th with NodeList Method</h3>
+<p>this is my first paraghraph</p>
+<p>this is my 2<sup>nd</sup> paraghraph</p>
+<p>this is my 3<sup>rd</sup> paraghraph</p>
+<p>this is my 4<sup>th</sup> paraghraph</p>
+<p>this is my 5<sup>th</sup> paraghraph</p>
+
+<button onclick="myfun()">Click to Change color of 3<sup>th</sup> para</button>
+
+<script>
+        
+    function myfun(){
+        var myNodeList=document.getElementsByTagName("p");
+       myNodeList[2].style.backgroundColor="red";
+       
+    
+    }
+    
+    
+</script>
+
+</div>
+</body>
+</html>
