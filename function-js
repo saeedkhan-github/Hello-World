@@ -1,0 +1,6 @@
+<script type="text/javascript">
+var b=4;
+function ff(){
+  return this.b;
+}
+</script>
